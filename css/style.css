@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  */
+
+body{
+    margin: 0;
+    background-color: rgb(252, 217, 217);
+    
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+.container .banner{
+    height: 100px;
+    background-color: rgb(193, 224, 206);
+    padding: 10px;
+}
+.container .banner .huruf img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.container .banner .huruf{
+    display: inline-block;
+    width: 750px;
+}
+.container .banner .huruf h2{
+    font-family: Arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(194, 156, 106);
+}
+.container .banner .huruf p{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.header{
+    background-color: black;
+    padding: 10px;
+    height:30px;
+}
+.header ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.container .header .cari{
+    float: right;
+}
+.container .pengenalan{
+    padding-top: 10%;
+    height: 300px;
+    background-image: url(../img/tembakau.png);
+    background-size: cover;
+}
+.container .pengenalan .lapisan{
+    padding: 2%;
+    box-sizing: border-box;
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.container .pengenalan .lapisan .huruf{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+   
+}
+.container .pengenalan .lapisan .huruf img{
+    width: 200px;
+    height: 200px;
+}
+.container .pengenalan .lapisan .huruf h2{
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 109, 3);
+}
+.container .pengenalan .lapisan .huruf p{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.container .pengenalan .lapisan .huruf .tulisan{
+    display: inline-block;
+    width: 250px;
+    height: 185px;
+    float: right;
+    overflow: auto;
+
+}
+.container .content{
+    width: 700px;
+   
+    margin: 10px auto;
+    
+    
+}
+.container .content .populer{
+    background-color: white;
+    
+}
+.container .content .populer h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container .content .populer .garis{
+ width: 500px;
+ height: 3px;
+ background-color: black;
+ border-radius: 1px;
+ margin-top: -10px;
+ float: right;
+}
+.isi1{
+    margin-top: 20px;
+   
+}
+.isi1 .kotak1{
+    
+   
+    width: 700px;
+}
+.isi1 .kotak1 img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+}
+.isi1 .kotak1 h2{
+    position: absolute;
+    margin-left: 6%;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+
+}
+.isi1 .kotak1 p{
+    margin-top: 2%;
+    margin-left: 3%;
+    position: absolute;
+    font-style: italic;
+    display: inline-block;
+    font-size: 15px;
+    width: 410px;
+}
+.isi1 .kotak1 a{
+	position: absolute;
+    background-color: green;
+    border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+.isi1 .kotak2{
+    margin-top: 2%;
+
+    width: 700px;
+}
+.isi1 .kotak2 img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+}
+.isi1 .kotak2 h2{
+    position: absolute;
+    margin-left: 6%;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+
+}
+.isi1 .kotak2 p{
+    margin-top: 2%;
+    margin-left: 3%;
+    position: absolute;
+    font-style: italic;
+    display: inline-block;
+    font-size: 15px;
+    width: 410px;
+}
+.isi1 .kotak2 a{
+	position: absolute;
+    background-color: green;
+    border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+
+.isi1 .kotak3{
+    margin-top: 2%;
+
+    width: 700px;
+}
+.isi1 .kotak3 img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+}
+.isi1 .kotak3 h2{
+    position: absolute;
+    margin-left: 6%;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+
+}
+.isi1 .kotak3 p{
+    margin-top: 2%;
+    margin-left: 3%;
+    position: absolute;
+    font-style: italic;
+    display: inline-block;
+    font-size: 15px;
+    width: 410px;
+}
+.isi1 .kotak3 a{
+	position: absolute;
+    background-color: green;
+    border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 3%;
+}
