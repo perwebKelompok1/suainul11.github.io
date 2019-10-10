@@ -305,3 +305,12 @@ body{
     margin-top: 120px;
     margin-left: 40px;
 }
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
